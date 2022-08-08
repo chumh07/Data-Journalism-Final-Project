@@ -9,8 +9,8 @@ I want to use data from California to explore more about the benefits of the Nat
 
 
 ## Data Visualizations 
-![_Q1 Visual](https://user-images.githubusercontent.com/109722062/183426806-802f3352-1087-4ffd-8755-e56eb26b1f2f.png)
-
+![_1 Visual](https://user-images.githubusercontent.com/109722062/183426806-802f3352-1087-4ffd-8755-e56eb26b1f2f.png)
+![_6 Visual](https://user-images.githubusercontent.com/109722062/183443474-2e7b9416-b097-44b1-9863-59385c5571e8.png)
 
 ## Sources
 
@@ -47,7 +47,6 @@ All questions were answered using the data set for the year 2020 in California f
 #### 1. What is the percentage of K- 12 students enrolling in the National School Lunch Program in each school type?
 
 ![_Q1](https://user-images.githubusercontent.com/109722062/183425284-e9eda23d-bd59-486d-a022-6af74ae642bb.png)
-![_Q1](https://user-images.githubusercontent.com/109722062/183443474-2e7b9416-b097-44b1-9863-59385c5571e8.png)
 
 ##### Step-by-step answer:
 1. I made a pivot table on Google Sheets
