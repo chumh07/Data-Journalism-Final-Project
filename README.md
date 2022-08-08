@@ -44,3 +44,5 @@ All questions were answered using the data set for the year 2020 from the source
 
 ### Analysis 
 1. What is the amount of students erolling in the National School Program in each school type? 
+
+<img width="563" alt="image" src="https://user-images.githubusercontent.com/109722062/183417260-be0dfe84-2b37-4412-b60e-731d77a0b40b.png">
