@@ -1,4 +1,4 @@
-# Data-Driven Story Pitch: The Benifits of Free/ Reduced School Meals  
+# Data-Driven Story Pitch: How does Free/ Reduced School Meals affect students?
 ###### By Hanh Chu
 ## Pitch Summary 
 President Joe Biden signed a new bill, the Keep Kids Fed Act, into law on June 22, 2022. This law will extend most of the federal waivers that helped millions of kids around the United States get access to meals during the school years and summer just before their expiration at the end of the month. But this new law does not extend the waiver that made all school meals free to students regardless of their family’s income. 
