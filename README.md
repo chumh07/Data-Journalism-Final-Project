@@ -43,6 +43,18 @@ The next step is to rename the data sets, bold, and freeze the heading row after
 All questions were answered using the data set for the year 2020 from the sources mentioned above. 
 
 ### Analysis 
-1. What is the amount of students erolling in the National School Program in each school type? 
+#### 1. What is the percentage of K- 12 students enrolling in the National School Program in each school type?
+
+(<img width="401" alt="image" src="https://user-images.githubusercontent.com/109722062/183418222-3f6bc6d8-4b57-4491-be42-07fbf6eb76cf.png">)
+
+##### Step-by-step answer:
+1/ I made a pivot table on Google Sheets
+1/ I set my row as school type and set my values as sum of Free Meal Count (K-12)
+1. I then copy everything except for the first row into a new sheet
+1. I change the value for the pivot table to sum of Enrollment K-12
+1. I copy the new column of the sum and paste it to the sheet I just created
+1. I made another column and find the percentage
+
+
 
 <img width="563" alt="image" src="https://user-images.githubusercontent.com/109722062/183417260-be0dfe84-2b37-4412-b60e-731d77a0b40b.png">
