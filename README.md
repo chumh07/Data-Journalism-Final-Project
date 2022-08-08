@@ -23,8 +23,7 @@ This pitch was inspired by [this article by NBC](https://www.nbcnews.com/news/us
 ### Potential Interview Contacts
 1. Ms. Cathy Ahearn 
 - Email: cahearn@slcusd.org
-- As a teacher working closely with second English language learners and low- income students, she understands and is familiar with the needs of the communities
-- with the most participation in the National Lunch Program.
+- As a teacher working closely with second English language learners and low- income students, she understands and is familiar with the needs of the communities with the most participation in the National Lunch Program.
 
 2. Ashley Salomon Gaspar
 - Email: ashleyswoo@gmail.com
