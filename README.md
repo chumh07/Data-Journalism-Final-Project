@@ -94,7 +94,7 @@ All questions were answered using the data set for the year 2020 in California f
 3. I set my row as county name and add school type also as my row 
 4. I then set my values as school name and change the "summarize by" tab to counta 
 
-#### 6. How many school in each county that has less than half students enrolling in FRPM K- 12 ?
+#### 6. How many school in each county has less than half students enrolling in FRPM K- 12 ?
 ![_Q6a](https://user-images.githubusercontent.com/109722062/183441919-0ea3a536-6619-4b85-a452-a17910630544.png) 
 ![_Q6b](https://user-images.githubusercontent.com/109722062/183442298-f947fa72-7ae3-46b7-9c9c-9739b399d3b7.png)
 ##### Step-by-step answer:
