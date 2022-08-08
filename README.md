@@ -18,7 +18,7 @@ This [map](https://www.datawrapper.de/_/QjZZt/) show the number of school in eac
 
 ## Sources
 
-This pitch was inspired by [this article by NBC](https://www.nbcnews.com/news/us-news/free-school-lunches-are-ending-house-passes-deal-summer-meals-child-nu-rcna34745). This project was made possible with the data from the California Department of Education's [website](https://www.cde.ca.gov/ds/sh/cw/).    
+This pitch was inspired by [this article by NBC](https://www.nbcnews.com/news/us-news/free-school-lunches-are-ending-house-passes-deal-summer-meals-child-nu-rcna34745). This project was made possible with the data from the California Department of Education's [website](https://www.cde.ca.gov/ds/sh/cw/) and you can find the my spreadsheets [here](https://docs.google.com/spreadsheets/d/1TmgSBt7lYTcBlwzz_vMqE01Xg3-0yorGSs7pwhPAR14/edit?usp=sharing).    
 
 ### Potential Interview Contacts
 1. Ms. Cathy Ahearn 
