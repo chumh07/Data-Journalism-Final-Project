@@ -37,7 +37,10 @@ This pitch was inspired by [this article by NBC](https://www.nbcnews.com/news/us
 
 ## Data Analysis Process
 The first step of my analysis was to clean the data using the program Refine. After inspection, I only catch some spelling errors in the school’s name and the rest of the data did not require any refining. 
+The next step is to rename the data sets, bold, and freeze the heading row after uploading them onto Google Sheets. 
 
 ### Key Assumptions 
+All questions were answered using the data set for the year 2020 from the sources mentioned above. 
 
 ### Analysis 
+1. What is the amount of students erolling in the National School Program in each school type? 
