@@ -3,13 +3,13 @@
 ## Pitch Summary 
 President Joe Biden signed a new bill, the Keep Kids Fed Act, into law on June 22, 2022. This law will extend most of the federal waivers that helped millions of kids around the United States get access to meals during the school years and summer just before their expiration at the end of the month. But this new law does not extend the waiver that made all school meals free to students regardless of their family’s income. 
 
-The National Lunch Program provides free lunch for students with a family’s income at or below 130 percent of the Federal poverty line. This still leaves students at between 130 and 185 percent of the poverty line with reduced costs of 40 cents for lunch and 30 cents for breakfast and above 180 percent with full-priced meals. These costs can add up and potentially burden families. 
+The National Lunch Program provides free lunch for students with a family’s income at or below 130 percent of the Federal poverty line. This still leaves students at between 130 and 185 percent of the poverty line with reduced costs of 40 cents for lunch and 30 cents for breakfast and above 185 percent with full-priced meals. These costs can add up and potentially burden families. 
 
-I want to use data to explore more about the benefits of the National Lunch Program and whether or not it should expand the requirement on household income for students to receive free meals. 
+I want to use data from California to explore more about the benefits of the National Lunch Program and whether or not it should expand the requirement on household income for students to receive free meals. 
 
 
 ## Data Visualizations 
-
+![_Q1 Visual](https://user-images.githubusercontent.com/109722062/183426806-802f3352-1087-4ffd-8755-e56eb26b1f2f.png)
 
 ## Sources
 
@@ -40,21 +40,59 @@ The first step of my analysis was to clean the data using the program Refine. Af
 The next step is to rename the data sets, bold, and freeze the heading row after uploading them onto Google Sheets. 
 
 ### Key Assumptions 
-All questions were answered using the data set for the year 2020 from the sources mentioned above. 
+All questions were answered using the data set for the year 2020 in California from the sources mentioned above. 
 
 ### Analysis 
-#### 1. What is the percentage of K- 12 students enrolling in the National School Program in each school type?
+#### 1. What is the percentage of K- 12 students enrolling in the National School Lunch Program in each school type?
 
-(<img width="401" alt="image" src="https://user-images.githubusercontent.com/109722062/183418222-3f6bc6d8-4b57-4491-be42-07fbf6eb76cf.png">)
+![_Q1](https://user-images.githubusercontent.com/109722062/183425284-e9eda23d-bd59-486d-a022-6af74ae642bb.png)
 
 ##### Step-by-step answer:
-1/ I made a pivot table on Google Sheets
-1/ I set my row as school type and set my values as sum of Free Meal Count (K-12)
+1. I made a pivot table on Google Sheets
+1. I set my row as school type and set my values as sum of Free or Reduced Meal Count (K-12)
 1. I then copy everything except for the first row into a new sheet
 1. I change the value for the pivot table to sum of Enrollment K-12
-1. I copy the new column of the sum and paste it to the sheet I just created
+1. I copy the new column of the sum and paste it to a new column on the sheet I just created
 1. I made another column and find the percentage
 
+#### 2. Comparing the average percentage of FRPM K- 12 (Free or reduced-price meal) between charter and non-charter school
+![_Q2c](https://user-images.githubusercontent.com/109722062/183422874-7b1bf961-4b5f-4ea1-86e0-751548fa6598.png)
+![_Q2nc](https://user-images.githubusercontent.com/109722062/183423472-c1e06ac1-a120-4732-8500-d30086434e9b.png)
+##### Step-by-step answer:
+1. I put on a filter and only look at charter school
+1. I highlighted the FRPM K -12 column and click on the tab at the bottom right to find the average
+1. I then copy everything except for the first row into a new sheet
+1. I compare the two average and non charter school (right) is higher 
+
+#### 3. What non-traditional educational type has the lowest average percentage of FRPM K- 12 ?
+![Q3](https://user-images.githubusercontent.com/109722062/183429749-5ed9c23a-97bf-462f-ba0b-edae668d06c5.png)
+##### Step-by-step answer:
+1. I made a pivot table on Google Sheets
+1. I put the educational type under filter and unselect traditional
+1. I set my row as educational type and set my values as avg of Free or Meal Count(K-12)
+1. I then copy everything except for the first row into a new sheet
+1. I sort the column with the average from A - Z
+1. Youth Authority School has the lowest average percentage of students in FRMP
+
+#### 4. Which non-traditional educational type has the lowest average percentage of FRPM K- 12 ?
+![Q4](https://user-images.githubusercontent.com/109722062/183429749-5ed9c23a-97bf-462f-ba0b-edae668d06c5.png)
+##### Step-by-step answer:
+1. I made a pivot table on Google Sheets
+1. I put the educational type under filter and unselect traditional
+1. I set my row as educational type and set my values as avg of Free or Meal Count(K-12)
+1. I then copy everything except for the first row into a new sheet
+1. I sort the column with the average from A - Z
+1. Youth Authority School has the lowest average percentage of students in FRMP
+
+#### 5. What is the number of K- 12 students that only receivied Reduced- Price Meal in each educational type ?
+![Q5](https://user-images.githubusercontent.com/109722062/183432891-1aa0a2a5-d290-4eb1-804b-0a37e8fa5bf1.png)
+##### Step-by-step answer:
+1. I made a pivot table on Google Sheets
+1. I set my row as educational type and set my values as sum of Free Meal Count(K-12)
+1. I then copy everything except for the first row into a new sheet
+1. I change the value for the pivot table to sum of Free or Reduced- Price Meal Count(K-12)
+1. I copy the new column of the sum and paste it to a new column on the sheet I just created
+1. I made another column and subtract the free meal from the FRPM to get the answer
 
 
-<img width="563" alt="image" src="https://user-images.githubusercontent.com/109722062/183417260-be0dfe84-2b37-4412-b60e-731d77a0b40b.png">
+
