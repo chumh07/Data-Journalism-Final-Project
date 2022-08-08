@@ -11,9 +11,10 @@ I want to use data from California to explore more about the benefits of the Nat
 ## Data Visualizations 
 ![_Q1 Visual](https://user-images.githubusercontent.com/109722062/183426806-802f3352-1087-4ffd-8755-e56eb26b1f2f.png)
 
+
 ## Sources
 
-This pitch was inspired by [this article by NBC](https://www.nbcnews.com/news/us-news/free-school-lunches-are-ending-house-passes-deal-summer-meals-child-nu-rcna34745). This project was made possible with the data from the California Department of Education's [website](https://www.cde.ca.gov/ds/sh/cw/), the table from [U.S. Department of Health and Human Services](https://aspe.hhs.gov/sites/default/files/private/aspe-files/107166/2020-percentage-poverty-tool.pdf), and table A1 and table A2 from the [Income and Poverty in the United States: 2020 report](https://www.census.gov/library/publications/2021/demo/p60-273.html)  by the United States Census Bureau.    
+This pitch was inspired by [this article by NBC](https://www.nbcnews.com/news/us-news/free-school-lunches-are-ending-house-passes-deal-summer-meals-child-nu-rcna34745). This project was made possible with the data from the California Department of Education's [website](https://www.cde.ca.gov/ds/sh/cw/).    
 
 ### Potential Interview Contacts
 1. Ms. Cathy Ahearn 
@@ -46,6 +47,7 @@ All questions were answered using the data set for the year 2020 in California f
 #### 1. What is the percentage of K- 12 students enrolling in the National School Lunch Program in each school type?
 
 ![_Q1](https://user-images.githubusercontent.com/109722062/183425284-e9eda23d-bd59-486d-a022-6af74ae642bb.png)
+![_Q1](https://user-images.githubusercontent.com/109722062/183443474-2e7b9416-b097-44b1-9863-59385c5571e8.png)
 
 ##### Step-by-step answer:
 1. I made a pivot table on Google Sheets
@@ -68,31 +70,38 @@ All questions were answered using the data set for the year 2020 in California f
 ![Q3](https://user-images.githubusercontent.com/109722062/183429749-5ed9c23a-97bf-462f-ba0b-edae668d06c5.png)
 ##### Step-by-step answer:
 1. I made a pivot table on Google Sheets
-1. I put the educational type under filter and unselect traditional
-1. I set my row as educational type and set my values as avg of Free or Meal Count(K-12)
+1. I put educational type under filter and unselect traditional
+1. I set my row as educational type and set my values as avg of FRMP(K-12)
 1. I then copy everything except for the first row into a new sheet
 1. I sort the column with the average from A - Z
 1. Youth Authority School has the lowest average percentage of students in FRMP
 
-#### 4. Which non-traditional educational type has the lowest average percentage of FRPM K- 12 ?
-![Q4](https://user-images.githubusercontent.com/109722062/183429749-5ed9c23a-97bf-462f-ba0b-edae668d06c5.png)
-##### Step-by-step answer:
-1. I made a pivot table on Google Sheets
-1. I put the educational type under filter and unselect traditional
-1. I set my row as educational type and set my values as avg of Free or Meal Count(K-12)
-1. I then copy everything except for the first row into a new sheet
-1. I sort the column with the average from A - Z
-1. Youth Authority School has the lowest average percentage of students in FRMP
-
-#### 5. What is the number of K- 12 students that only receivied Reduced- Price Meal in each educational type ?
-![Q5](https://user-images.githubusercontent.com/109722062/183432891-1aa0a2a5-d290-4eb1-804b-0a37e8fa5bf1.png)
+#### 4. What is the number of K- 12 students that only receivied Reduced- Price Meal in each educational type ?
+![Q4](https://user-images.githubusercontent.com/109722062/183432891-1aa0a2a5-d290-4eb1-804b-0a37e8fa5bf1.png)
 ##### Step-by-step answer:
 1. I made a pivot table on Google Sheets
 1. I set my row as educational type and set my values as sum of Free Meal Count(K-12)
 1. I then copy everything except for the first row into a new sheet
-1. I change the value for the pivot table to sum of Free or Reduced- Price Meal Count(K-12)
+1. I change the value for the pivot table to sum of FRMP(K-12)
 1. I copy the new column of the sum and paste it to a new column on the sheet I just created
 1. I made another column and subtract the free meal from the FRPM to get the answer
 
+#### 5. How many school in each school type in Alameda county that has half or more students enrolling in FRPM K- 12 ?
+![Q5](https://user-images.githubusercontent.com/109722062/183438219-ac44894b-88b0-4318-bcc7-61b663bd9526.png)
+##### Step-by-step answer:
+1. I made a pivot table on Google Sheets
+1. I put county name under filter and unselected everything but Alameda 
+2. I put percentage FRMP K-12 under filter, chose filter by condition and set it to only greater or equal to 0.5
+3. I set my row as county name and add school type also as my row 
+4. I then set my values as school name and change the "summarize by" tab to counta 
+
+#### 6. How many school in each county that has less than half students enrolling in FRPM K- 12 ?
+![_Q6a](https://user-images.githubusercontent.com/109722062/183441919-0ea3a536-6619-4b85-a452-a17910630544.png) 
+![_Q6b](https://user-images.githubusercontent.com/109722062/183442298-f947fa72-7ae3-46b7-9c9c-9739b399d3b7.png)
+##### Step-by-step answer:
+1. I made a pivot table on Google Sheets
+2. I put percentage FRMP K-12 under filter, chose filter by condition and set it to only less than 0.5
+3. I set my row as county name
+4. I then set my values as school name and change the "summarize by" tab to counta 
 
 
