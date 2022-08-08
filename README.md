@@ -70,7 +70,7 @@ All questions were answered using the data set for the year 2020 in California f
 1. I compare the two average and non charter school (right) is higher 
 
 #### 3. What non-traditional educational type has the lowest average percentage of FRPM K- 12 ?
-![Q3](https://user-images.githubusercontent.com/109722062/183429749-5ed9c23a-97bf-462f-ba0b-edae668d06c5.png)
+![Q3](https://user-images.githubusercontent.com/109722062/183447209-144ace21-91d3-4f18-8264-235630089d31.png)
 ##### Step-by-step answer:
 1. I made a pivot table on Google Sheets
 1. I put educational type under filter and unselect traditional
