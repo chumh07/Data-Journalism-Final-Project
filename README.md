@@ -10,11 +10,12 @@ I want to use data from California to explore more about the benefits of the Nat
 
 
 ## Data Visualizations 
-![_1 Visual](https://user-images.githubusercontent.com/109722062/183426806-802f3352-1087-4ffd-8755-e56eb26b1f2f.png)
 This [bar chart](https://www.datawrapper.de/_/SgTbY/) show the percentage of K- 12 students enrolling in the National School Lunch Program in each school type
+![_1 Visual](https://user-images.githubusercontent.com/109722062/183426806-802f3352-1087-4ffd-8755-e56eb26b1f2f.png)
 
-![_6 Visual](https://user-images.githubusercontent.com/109722062/183443474-2e7b9416-b097-44b1-9863-59385c5571e8.png)
 This [map](https://www.datawrapper.de/_/QjZZt/) show the number of school in each county has less than half students enrolling in FRPM K- 12
+![_6 Visual](https://user-images.githubusercontent.com/109722062/183443474-2e7b9416-b097-44b1-9863-59385c5571e8.png)
+
 ## Sources
 
 This pitch was inspired by [this article by NBC](https://www.nbcnews.com/news/us-news/free-school-lunches-are-ending-house-passes-deal-summer-meals-child-nu-rcna34745). This project was made possible with the data from the California Department of Education's [website](https://www.cde.ca.gov/ds/sh/cw/).    
